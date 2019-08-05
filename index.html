@@ -14,7 +14,8 @@
 		/>
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<link rel="stylesheet" href="./style.css" />
-		<title>Document</title>
+		<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+		<title>Michael Weber - Web Developer</title>
 	</head>
 	<body>
 		<header class="header">
@@ -24,26 +25,16 @@
 					<br />
 					I'm Mike,
 				</h1>
-				<h2>a front-end developer</h2>
+				<h2>a web developer</h2>
 			</div>
-			<img
-				class="header-image"
-				src="./images/header-image.svg"
-				alt="man at computer"
-			/>
 		</header>
 		<div class="projects">
-			<img
-				src="./images/header-border.svg"
-				alt="border"
-				class="header-border"
-			/>
 			<section class="projects-container">
 				<h3>Projects</h3>
 				<div class="project-group odd">
 					<img
 						class="animate-me"
-						src="./images/michael-weber-music.png"
+						src="./images/computers-music.png"
 						alt="Michael Weber Music"
 					/>
 					<div class="project-text">
@@ -52,7 +43,12 @@
 							A single-page, mobile-responsive music portfolio site, built with
 							React
 						</p>
-						<p>Features a custom-built audio player utilizing HTML audio</p>
+						<p>
+							Each section of the site is laid out on the screen using CSS grid.
+							Clicking on a section displays the information for that section,
+							such as a list of credits, a bio, and an animated custom music
+							player
+						</p>
 						<ul class="tech-list">
 							<li>
 								<div class="bullet"></div>
@@ -98,16 +94,26 @@
 				<div class="project-group even">
 					<img
 						class="animate-me"
-						src="./images/weather-forecast.png"
+						src="./images/computers-weather.png"
 						alt="5 Day Weather Forecast"
 					/>
 					<div class="project-text">
 						<h4>5 Day Weather Forecast</h4>
 						<p>
-							A web app that provides weather data for a user-specified location
+							An online weather app, made with the
+							<a
+								href="https://openweathermap.org/api"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Open Weather Map API</a
+							>
 						</p>
 						<p>
-							Clicking on a day will display more detailed info for that day
+							The user enters a zip code, and the app will display the projected
+							temperature and forecast for the next five days. Clicking on a day
+							will bring up more specific details, including a brief description
+							of the weather conditions, the amount of rain that is expected,
+							the speed and direction of the wind, and the humidity level
 						</p>
 						<ul class="tech-list">
 							<li>
@@ -162,15 +168,20 @@
 				<div class="project-group odd">
 					<img
 						class="animate-me"
-						src="./images/guitar-quiz.png"
+						src="./images/computers-guitar.png"
 						alt="Can You Name These Guitars?"
 					/>
 					<div class="project-text">
 						<h4>Can You Name These Guitars?</h4>
-						<p>An interactive online quiz, built with React</p>
 						<p>
-							Displays different pages depending on the user’s answer, and
-							tracks the amount of correct choices
+							An interactive online quiz that tests the user's ability to
+							recognize famous guitars
+						</p>
+						<p>
+							Guides the user through a series of multiple-choice questions and,
+							depending on whether or not they answer correctly, displays a
+							different page after each one. Tracks how many questions were
+							answered correctly and displays a final score at the end
 						</p>
 						<ul class="tech-list">
 							<li>
