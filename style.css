@@ -5,7 +5,7 @@
 
 body,
 html {
-	background-color: #3b555e;
+	background-color: #2b3e45;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 2;
 	height: 100%;
@@ -146,7 +146,7 @@ p {
 }
 
 .project-button {
-	background-color: #b0b5b2;
+	background-color: #3b555e;
 	/* background: linear-gradient(180deg, #b0b5b2 0%, #a3a9a5 100%); */
 	border-radius: 5px;
 	border-bottom: 2px solid #969c98;
