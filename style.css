@@ -11,6 +11,8 @@ html {
 	height: 100%;
 	width: 100%;
 	overflow-x: hidden;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 h1 {
@@ -132,7 +134,6 @@ p {
 	display: inline-block;
 	height: 0.7em;
 	width: 0.7em;
-	background-color: blue;
 	border-radius: 3px;
 	margin-right: 0.2em;
 	background-color: #83bad8;
@@ -147,7 +148,6 @@ p {
 
 .project-button {
 	background-color: #3b555e;
-	/* background: linear-gradient(180deg, #b0b5b2 0%, #a3a9a5 100%); */
 	border-radius: 5px;
 	border-bottom: 2px solid #969c98;
 	color: #fafafa;
@@ -358,25 +358,5 @@ p {
 	to {
 		margin-top: 50px;
 		opacity: 1;
-	}
-}
-
-@keyframes slide-left {
-	from {
-		margin-right: -200px;
-		opacity: 0;
-	}
-	to {
-		margin-right: 0px;
-		opacity: 1;
-	}
-}
-
-@keyframes tilt-right {
-	from {
-		transform: rotateY(0deg);
-	}
-	to {
-		transform: rotateY(20deg);
 	}
 }
