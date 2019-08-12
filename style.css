@@ -80,11 +80,13 @@ p {
 
 .line {
 	border-bottom: 2px solid rgba(250, 250, 250, 0.8);
-	/* flex-grow: 1; */
+	color: rgba(250, 250, 250, 0);
 	animation-name: extend;
 	animation-duration: 3s;
 	animation-delay: 1s;
 	animation-fill-mode: forwards;
+	/* flex-grow: 1; */
+	/* height: 1px; */
 }
 
 .header-border {
@@ -264,7 +266,7 @@ p {
 	color: #fafafa;
 	margin-top: -1px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 
 .footer p {
